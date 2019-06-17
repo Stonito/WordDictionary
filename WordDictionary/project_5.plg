@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: project_5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Koce\LOCALS~1\Temp\RSP25F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/project_5.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2010\PIK_2_2009_10\Upr_5_6\upr_5_6_students\project_5_beg\dict_func.c"
+"D:\2010\PIK_2_2009_10\Upr_5_6\upr_5_6_students\project_5_beg\main_dict.c"
+"D:\2010\PIK_2_2009_10\Upr_5_6\upr_5_6_students\project_5_beg\menu.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Koce\LOCALS~1\Temp\RSP25F.tmp" 
+Creating temporary file "C:\DOCUME~1\Koce\LOCALS~1\Temp\RSP260.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/project_5.pdb" /debug /machine:I386 /out:"Debug/project_5.exe" /pdbtype:sept 
+.\Debug\dict_func.obj
+.\Debug\main_dict.obj
+.\Debug\menu.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Koce\LOCALS~1\Temp\RSP260.tmp"
+<h3>Output Window</h3>
+Compiling...
+dict_func.c
+main_dict.c
+d:\2010\pik_2_2009_10\upr_5_6\upr_5_6_students\project_5_beg\main_dict.c(74) : warning C4101: 'name_dict' : unreferenced local variable
+d:\2010\pik_2_2009_10\upr_5_6\upr_5_6_students\project_5_beg\main_dict.c(73) : warning C4101: 'pcode_file' : unreferenced local variable
+d:\2010\pik_2_2009_10\upr_5_6\upr_5_6_students\project_5_beg\main_dict.c(74) : warning C4101: 'name_code' : unreferenced local variable
+menu.c
+Linking...
+
+
+
+<h3>Results</h3>
+project_5.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
